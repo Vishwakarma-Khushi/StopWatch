@@ -1,0 +1,91 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: hsl(0, 0%, 94%);
+}
+#title{
+    font-family: 'Orbitron', sans-serif;
+    font-size: 3em;
+    font-weight: bold;
+    color: hsl(0, 0%, 52%);
+    letter-spacing: 1.3x;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:white;
+    padding: 40px;
+    width: 450px;
+    border: 1px solid rgba(0,0,0,0.17);
+    border-radius: 17px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.15);
+}
+#startTimer{
+    background-color: hsl(126, 80%, 59%);
+    color: hsl(0, 0%, 100%);
+    border-radius: 7px;
+    font-weight: bold;
+    border-width: 2.5px;
+    transition: 0.3s ease;
+    padding: 7px 13px;
+    letter-spacing: 1.1x;
+}
+#stopTimer{
+    background-color: hsl(0, 99%, 61%);
+    color: hsl(0, 0%, 100%);
+    border-radius: 7px;
+    font-weight: bold;
+    border-width: 2.5px;
+    transition: 0.3s ease;
+    padding: 7px 13px;
+    letter-spacing: 1.1x;
+}
+#resetTimer{
+    background-color: rgb(137, 216, 252);
+    color:  hsl(0, 0%, 100%);
+    border-radius: 7px;
+    font-weight: bold;
+    border-width: 2.5px;
+    transition: 0.3s ease;
+    padding: 7px 13px;
+    letter-spacing: 1.1x;
+}
+#stopwatch{
+    font-weight: bolder;
+    margin-bottom: 20px;
+    font-size: 5em;
+    letter-spacing: 3.3px;
+}
+#startTimer:hover{
+    background-color: hsl(126, 88%, 42%);
+    transform: scale(1.05);
+}
+#startTimer:active{
+    background-color: hsl(107, 73%, 58%);
+    transform: scale(0.95);
+}
+#stopTimer:hover{
+    background-color: hsl(0, 97%, 43%);
+    transform: scale(1.05);
+}
+#stopTimer:active{
+    background-color: hsl(11, 92%, 59%);
+    transform: scale(0.95);
+}
+#resetTimer:hover{
+    background-color: hsl(196, 86%, 43%);
+    transform: scale(1.05);
+}
+#resetTimer:active{
+    background-color: hsl(199, 78%, 55%);
+    transform: scale(0.95);
+}
+button{
+    margin: 3.7px;
+}
+
